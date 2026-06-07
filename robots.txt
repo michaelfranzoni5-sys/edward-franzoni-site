@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://michaelfranzoni5-sys.github.io/edward-franzoni-site/sitemap.xml
+Sitemap: https://edwardfranzoniphd.com/sitemap.xml

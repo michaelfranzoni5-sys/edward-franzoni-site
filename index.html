@@ -330,13 +330,17 @@
       }
       .hero-phone-note a { color: var(--navy); font-weight: 600; }
 
+      .hero-badges {
+        display: flex; gap: 10px; flex-wrap: wrap;
+        margin-bottom: 18px;
+      }
       .hero-badge {
         display: inline-flex; align-items: center; gap: 8px;
         font-size: 15px; font-weight: 700;
         color: #ffffff;
         background: #1e3a5f;
         padding: 8px 18px;
-        border-radius: 9999px; margin-bottom: 18px;
+        border-radius: 9999px;
         letter-spacing: 0.3px;
       }
       .hero-badge svg { width: 16px; height: 16px; flex-shrink: 0; stroke: #ffffff; }
@@ -618,9 +622,15 @@
       <!-- ═══ HERO ═══ -->
       <div class="hero-section">
         <div class="hero-text">
-          <div class="hero-badge">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
-            Over 30 Years of Experience
+          <div class="hero-badges">
+            <div class="hero-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+              Over 30 Years of Experience
+            </div>
+            <div class="hero-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="10" r="3"/><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/></svg>
+              Serving All of New Jersey
+            </div>
           </div>
           <h1>Edward M. Franzoni, Ph.D.</h1>
           <p class="hero-subtitle">Licensed Psychologist</p>

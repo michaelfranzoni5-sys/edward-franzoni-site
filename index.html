@@ -412,21 +412,22 @@
       .insurance-pill {
         display: inline-flex;
         padding: 6px 16px;
-        background: var(--blue-accent);
-        border: 1px solid var(--blue-accent);
+        background: #fff;
+        border: 1px solid var(--border-light);
         border-radius: 9999px;
         font-size: 13px; font-weight: 500;
-        color: #fff;
+        color: var(--text-secondary);
         transition: border-color 0.2s, background 0.2s;
       }
       .insurance-pill:hover {
-        border-color: var(--navy);
-        background: var(--navy);
+        border-color: var(--blue-accent);
+        background: var(--blue-light);
       }
       .insurance-pill.highlight {
-        background: var(--blue-accent);
-        border-color: var(--blue-accent);
-        color: #fff;
+        background: var(--blue-light);
+        border-color: var(--blue-mid);
+        color: var(--blue-accent);
+        font-weight: 600;
       }
       .insurance-note {
         font-size: 13px; color: var(--text-muted);

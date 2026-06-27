@@ -207,6 +207,7 @@
       }
       .header-left { display: flex; flex-direction: column; line-height: 1.3; }
       .header-name { font-size: 17px; font-weight: 700; color: var(--navy); }
+      .header-name-row { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
       @media (min-width: 640px) { .header-name { font-size: 20px; } }
       .header-subtitle { font-size: 14px; color: var(--text-muted); }
       .header-address { font-size: 13px; color: var(--text-muted); display: block; }
@@ -621,8 +622,10 @@
     <header>
       <div>
         <div class="header-left">
-          <span class="header-name">Edward M. Franzoni, Ph.D.</span>
-          <span class="header-subtitle">Licensed Psychologist</span>
+          <div class="header-name-row">
+            <span class="header-name">Edward M. Franzoni, Ph.D.</span>
+            <span class="header-subtitle">Licensed Psychologist</span>
+          </div>
           <span class="header-address">3820 River Rd, Point Pleasant, NJ 08742</span>
         </div>
         <a href="tel:+17328405266" class="btn-header-phone">📞 (732) 840-5266</a>

@@ -294,6 +294,23 @@
         outline: 1px solid var(--border-light);
       }
 
+      .office-photo {
+        width: 100%; height: auto;
+        border-radius: var(--radius-md);
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        border: 1px solid var(--border-light);
+        margin-top: 20px;
+        display: block;
+      }
+      .office-photo-label {
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+        color: var(--text-muted);
+        margin-top: 8px;
+        text-align: center;
+      }
+
       h1 {
         font-family: var(--font-serif);
         font-size: 28px; font-weight: 900; color: var(--navy);
@@ -670,6 +687,14 @@
             width="300" height="300"
             loading="eager"
           />
+          <img
+            src="assets/office-building.jpeg"
+            alt="Dr. Franzoni's Office - 3820 River Rd, Point Pleasant, NJ"
+            class="office-photo"
+            width="1170" height="1026"
+            loading="lazy"
+          />
+          <div class="office-photo-label">Our Office</div>
         </div>
       </div>
 
@@ -787,6 +812,12 @@
       <h2>Office Location</h2>
       <div class="section-divider"></div>
       <p class="section-intro">Conveniently located in Point Pleasant, NJ, near major highways.</p>
+      <img
+        src="assets/office-building.jpeg"
+        alt="Dr. Franzoni's Office - 3820 River Rd, Point Pleasant, NJ"
+        style="width:100%;max-width:800px;border-radius:var(--radius-md);box-shadow:var(--shadow-md);border:1px solid var(--border-light);margin:20px 0 24px;display:block;"
+        loading="lazy"
+      />
       <div style="display:flex;flex-wrap:wrap;gap:20px;margin:16px 0;">
         <div style="flex:1;min-width:200px;padding:24px;background:var(--card-bg);border:1px solid var(--border-light);border-radius:var(--radius-md);">
           <div style="font-weight:600;color:var(--navy);margin-bottom:8px;">📍 Address</div>
